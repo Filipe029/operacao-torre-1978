@@ -1,5 +1,31 @@
+# Ambiente virtual
 .venv/
+venv/
+
+# Cache do Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Logs e relatórios (gerados em runtime)
 logs/
 relatorios/
-*.pyc
+
+# Arquivos de filas (gerados dinamicamente pela CLI)
+dados/fila_decolagem.txt
+dados/fila_pouso.txt
+
+# Arquivos temporários de editor/IDE
+*.swp
+*.swo
+*.tmp
+*.bak
+*.DS_Store
+
+# VS Code
+.vscode/
+
+
+
